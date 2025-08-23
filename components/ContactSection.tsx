@@ -45,7 +45,7 @@ export function ContactSection() {
     {
       icon: Calendar,
       type: 'Full-time Positions',
-      status: 'May \'26',
+      status: 'Available',
       statusColor: 'bg-blue-100 text-blue-800'
     },
     {

@@ -12,7 +12,7 @@ export function ProjectsSection() {
     {
       title: 'Yank - Search Query Optimizer',
       description: 'A tool that bridges the gap between vague search queries and search engine results while keeping the user in control.',
-      image: '/img/yank.png',
+      image: 'https://raw.githubusercontent.com/sakshmenon/website/refs/heads/main/yank.png',
       tags: ['AWS', 'Node.js', 'Flask', 'Docker', 'LLMs', 'JavaScript', 'Python', 'HTML', 'CSS'],
       duration: 'May 2025 - July 2025',
     },

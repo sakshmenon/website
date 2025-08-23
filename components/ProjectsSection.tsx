@@ -12,7 +12,7 @@ export function ProjectsSection() {
     {
       title: 'Yank - Search Query Optimizer',
       description: 'A tool that bridges the gap between vague search queries and search engine results while keeping the user in control.',
-      image: '../img/yank.png',
+      image: '/img/yank.png',
       tags: ['AWS', 'Node.js', 'Flask', 'Docker', 'LLMs', 'JavaScript', 'Python', 'HTML', 'CSS'],
       duration: 'May 2025 - July 2025',
     },
@@ -26,7 +26,7 @@ export function ProjectsSection() {
     {
       title: 'SafEE - Personalized Video Player',
       description: 'A video streaming app that warns users for sudden spikes in audio/brightness helping those sensitive to such spikes such as epileptic users.',
-      image: '../img/video.png',
+      image: '/img/video.png',
       tags: ['HTML', 'JavaScript', 'OpenCV', 'PyAudio', 'PyQt'],
       duration: 'Jan 2025 - Feb 2025'
     }

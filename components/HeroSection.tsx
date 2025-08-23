@@ -150,7 +150,7 @@ export function HeroSection() {
                 transition={{ duration: 0.3 }}
               >
                 <ImageWithFallback
-                  src="/img/self.jpeg"
+                  src="https://raw.githubusercontent.com/sakshmenon/website/refs/heads/main/self.jpeg"
                   alt="Saksh Menon - Photo"
                   className="w-full h-full object-cover"
                 />

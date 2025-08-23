@@ -26,7 +26,7 @@ export function ProjectsSection() {
     {
       title: 'SafEE - Personalized Video Player',
       description: 'A video streaming app that warns users for sudden spikes in audio/brightness helping those sensitive to such spikes such as epileptic users.',
-      image: '/img/video.png',
+      image: 'https://raw.githubusercontent.com/sakshmenon/website/refs/heads/main/video.png',
       tags: ['HTML', 'JavaScript', 'OpenCV', 'PyAudio', 'PyQt'],
       duration: 'Jan 2025 - Feb 2025'
     }

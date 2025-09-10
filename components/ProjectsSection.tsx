@@ -10,9 +10,18 @@ import { useRef } from 'react'
 export function ProjectsSection() {
   const projects = [
     {
+      title: 'Gradly - University Course Planner',
+      description: 'Building a course planner for University of Cincinnati students. Aiming to replace the current system and on board all current university system users.',
+      image: 'https://github.com/sakshmenon/Mobile-Website/blob/main/img/video.png?raw=true',
+      codelink: 'https://github.com/sakshmenon/SeniorDesign',
+      tags: ['React', 'Flask', 'Python', 'MongoDB', 'JWT'],
+      duration: 'Jan 2025 - Feb 2025'
+    },
+    {
       title: 'Yank - Search Query Optimizer',
       description: 'A tool that bridges the gap between vague search queries and search engine results while keeping the user in control.',
-      image: 'https://raw.githubusercontent.com/sakshmenon/website/refs/heads/main/yank.png',
+      image: 'https://github.com/sakshmenon/Mobile-Website/blob/main/img/yank.png?raw=true',
+      codelink: 'https://github.com/total-shambles/yank',
       tags: ['AWS', 'Node.js', 'Flask', 'Docker', 'LLMs', 'JavaScript', 'Python', 'HTML', 'CSS'],
       duration: 'May 2025 - July 2025',
     },
@@ -20,16 +29,10 @@ export function ProjectsSection() {
       title: 'MarketMatch - Commercial Matchmaking',
       description: 'Created a platform for buyers and sellers to connect with a swipe feature to guage interest.',
       image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=400&fit=crop',
+      codelink: 'https://github.com/total-shambles/marketmatch',
       tags: ['Swift', 'Go/Golang', 'React', 'Typescript', 'DynamoDB', 'HTML', 'CSS'],
       duration: 'Apr 2025 - June 2025'
     },
-    {
-      title: 'SafEE - Personalized Video Player',
-      description: 'A video streaming app that warns users for sudden spikes in audio/brightness helping those sensitive to such spikes such as epileptic users.',
-      image: 'https://raw.githubusercontent.com/sakshmenon/website/refs/heads/main/video.png',
-      tags: ['HTML', 'JavaScript', 'OpenCV', 'PyAudio', 'PyQt'],
-      duration: 'Jan 2025 - Feb 2025'
-    }
   ]
 
   const projectCardVariants = {
@@ -280,7 +283,7 @@ export function ProjectsSection() {
                               whileHover="hover"
                               whileTap="tap"
                             >
-                              <a href='https://github.com/total-shambles/yank'>
+                              <a href={project.codelink}>
                               <Button variant="outline" size="sm" className="group">
                                 <Github className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                                 View Code
